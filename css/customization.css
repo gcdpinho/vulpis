@@ -1,3 +1,5 @@
+/* HEADER CSS */
+
 #header {
     padding: 0px 0 !important;
     height: 82px !important;
@@ -9,6 +11,26 @@
 }
 
 #logo-header {
-    max-height: 85px;
+    max-height: 85px !important;
     padding: 10px 0 !important;
+}
+
+
+/* FOOTER CSS */
+
+#logo-footer {
+    max-height: 200px;
+    padding: 30px !important;
+}
+
+
+/* FEATURED-SERVICES CSS */
+
+#featured-services i{
+    padding: 30px;
+
+}
+
+#featured-services h4 {
+    margin-top: 45px;
 }
