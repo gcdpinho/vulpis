@@ -64,8 +64,3 @@
 .contact-email{
     cursor: pointer;
 }
-
-#sendmessage, #errormessage{
-    display: block !important;
-    visibility: hidden;
-}

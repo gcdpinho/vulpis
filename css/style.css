@@ -1259,6 +1259,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info {
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -1315,6 +1316,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form #sendmessage {
   color: #13a456;
   border: 1px solid #13a456;
+  display: none;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1323,6 +1325,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form #errormessage {
   color: red;
+  display: none;
   border: 1px solid red;
   text-align: center;
   padding: 15px;
@@ -1333,7 +1336,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form #sendmessage.show,
 #contact .form #errormessage.show,
 #contact .form .show {
-  visibility: visible;
+  display: block;
 }
 
 #contact .form .validation {
