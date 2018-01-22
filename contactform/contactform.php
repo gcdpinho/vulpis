@@ -12,7 +12,7 @@ if ($type == "orcamento"){
     $site = strip_tags(htmlspecialchars($_POST['site']));
     $logo = strip_tags(htmlspecialchars($_POST['logo']));
 
-    $email_orcamento = "Serviço: $service\n\nPrazo: $date\n\nPossui site? $site\n\nPossui logo? $logo";
+    $email_orcamento = "\n\nServiço: $service\n\nPrazo: $date\n\nPossui site? $site\n\nPossui logo? $logo";
 }
 	
 $to = 'gcdpinho@gmail.com';

@@ -136,7 +136,11 @@ jQuery(document).ready(function ($) {
           message: $("#message").val()
         }
     }
-
+    $(".validation").each(function(){
+      var current = $(this);
+      if (current.html() == "")
+        current.css('display', 'none');
+    });
     $.ajax({
       type: "POST",
       url: "contactform/contactform.php",
@@ -154,7 +158,7 @@ jQuery(document).ready(function ($) {
             $(".orcamento").css("display", "none");
             $("#message").attr('placeholder', 'Mensagem')
             $("#sendmessage").removeClass("fadeOut animated");
-          }, 1000);
+          }, 800);
         }, 3000);
 
       },
@@ -167,7 +171,7 @@ jQuery(document).ready(function ($) {
           setTimeout(function () {
             $('#errormessage').removeClass("show");
             $("#errormessage").removeClass("fadeOut animated");
-          }, 1000);
+          }, 800);
         }, 3000);
       }
     });
