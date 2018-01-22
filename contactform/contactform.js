@@ -139,7 +139,7 @@ jQuery(document).ready(function ($) {
 
     $.ajax({
       type: "POST",
-      url: "contactform.php",
+      url: "contactform/contactform.php",
       cache: false,
       data: data,
       success: function () {
