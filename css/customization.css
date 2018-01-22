@@ -22,7 +22,6 @@
     font-size: 1.5rem;
 } 
 
-
 /* FOOTER CSS */
 
 #logo-footer {
@@ -42,3 +41,26 @@
     margin-top: 45px;
 }
 
+/* CONTATO CSS */
+.custom-select{
+    height: 44px;
+    border-radius: 0;
+}
+
+.p-form{
+    margin: 0 0 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.question input{
+    margin-left: 10px;
+}
+
+.orcamento{
+    display: none;
+}
+
+.contact-email{
+    cursor: pointer;
+}
