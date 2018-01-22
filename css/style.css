@@ -1449,6 +1449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top h4::before {
   right: 0;
   background: #555;
+  width: 200px;
 }
 
 #footer .footer-top h4::after {
