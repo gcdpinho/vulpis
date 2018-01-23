@@ -66,6 +66,10 @@
         margin-top: 30px !important;
         font-size: 15px !important;
     }
+    
+    #featured-services .box{
+        padding: 0px 20px !important;
+    }
 }
 
 /* CONTATO CSS */
