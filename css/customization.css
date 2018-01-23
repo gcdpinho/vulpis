@@ -29,16 +29,43 @@
     padding: 30px !important;
 }
 
+@media (max-width: 767px){
+    #logo {
+        text-align: center !important;
+    }
+
+    .footer-contact.col{
+        text-align: center !important;
+    }
+
+    #footer .footer-top h4::before,
+    #footer .footer-top h4::after {
+        left: calc(50% - 40px);
+    }
+}
+
 
 /* FEATURED-SERVICES CSS */
 
 #featured-services i{
-    padding: 30px;
+    padding: 25px;
 
 }
 
 #featured-services h4 {
-    margin-top: 45px;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 1023px){
+    #featured-services i{
+        font-size: 30px !important;
+    }
+
+    #featured-services h4{
+        margin-top: 30px !important;
+        font-size: 15px !important;
+    }
 }
 
 /* CONTATO CSS */
