@@ -185,7 +185,7 @@ jQuery(document).ready(function ($) {
 
   $(".cta-btn").click(function () {
     $('.orcamento').css("display", "block");
-    $("#message").attr('placeholder', 'Descreva, com dethales, o projeto que deseja orçar')
+    $("#message").attr('placeholder', 'Descreva, com detalhes, o projeto que deseja orçar')
   });
 
 
