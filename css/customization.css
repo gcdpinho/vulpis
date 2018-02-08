@@ -102,3 +102,12 @@
 #services header {
     margin-bottom: 30px;
 }
+
+#services .box{
+    display: flex;
+    align-items: center;
+}
+
+#services .title{
+    margin-bottom: 0;
+}
