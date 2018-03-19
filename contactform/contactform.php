@@ -15,7 +15,7 @@ if ($type == "orcamento"){
     $email_orcamento = "\n\nServiço: $service\n\nPrazo: $date\n\nPossui site? $site\n\nPossui logo? $logo";
 }
 	
-$to = 'gcdpinho@gmail.com';
+$to = 'ftprestes@vulpis.tech';
 $email_subject = "Mensagem do site:  $name";
 $email_body = "Você recebeu uma nova mensagem do seu site.\n\n"."Aqui estão os detalhes:\n\nNome: $name\n\nE-mail: $email\n\nEmpresa: $companyName\n\nMensagem:\n$message";
 $headers = "De: noreply@vulpis.com.br\n";
